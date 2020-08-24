@@ -19,3 +19,16 @@ Basta clicar no icone da extensão e o perfil do vendedor estará escondido por 
 PS: Não publiquei, por ser algo que não vai me retornar nenhum lucro. A ideia é ajudar os editores da AutoSuper, como é algo específico demais e não vou ter usuários para justificar o custo de U$5, achei melhor apenas disponibilizar a extensão para instalação local. =D
 
 
+
+### Passos para instalar:
+1. Abrir o menu de extensões do chrome e clicar em gerenciar extensões
+![Abrir extensions menu](./assetsReadme/manage-extensions.png)
+
+2. Ativar modo de desenvolvedor, no canto superior direito
+![Dev Mode](./assetsReadme/active-dev-mode.png)
+
+3. Arrastar e soltar extensão (arrastar toda a pasta extension, que contém os arquivos necessários para a instalação)
+![Drag and drop extension](./assetsReadme/install-extension-drag-and-drop.png)
+
+4. Pinar extensão para facilitar o uso.
+![Pin extension](./assetsReadme/pin-extension.png)
