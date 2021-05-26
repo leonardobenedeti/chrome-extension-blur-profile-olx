@@ -12,15 +12,14 @@ function changeIcon(){
 }
 
 function insertBlur(){
-
     var scriptToBlur = `
         console.log("COM BLUR");
-        var profile = document.getElementById('miniprofile');
+        var profile = document.getElementsByClassName('sc-1ut0abb-0 CDLTm')[0];
         profile.style = profile.style = "-webkit-filter: blur(5px);-moz-filter: blur(5px);-o-filter: blur(5px);-ms-filter: blur(5px);filter: blur(5px);";
     `;
     var scriptToRemoveBlur = `
         console.log("SEM BLUR");
-        var profile = document.getElementById('miniprofile');
+        var profile = document.getElementsByClassName('sc-1ut0abb-0 CDLTm')[0];
         profile.style = profile.style = "-webkit-filter: blur(0);-moz-filter: blur(0);-o-filter: blur(0);-ms-filter: blur(0);filter: blur(0);";
     `;
 
